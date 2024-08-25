@@ -1,0 +1,134 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "*",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "x",
+            "val1": {
+              "value": "5",
+              "line": 2,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "x",
+              {
+                "value": "5",
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "x",
+              {
+                "value": "5",
+                "line": 2.0
+              }
+            ]
+          },
+          {
+            "val0": "y",
+            "val1": {
+              "value": "10",
+              "line": 3,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "y",
+              {
+                "value": "10",
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "y",
+              {
+                "value": "10",
+                "line": 3.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "Add",
+              "args": [
+                {
+                  "name": "x",
+                  "primed": true,
+                  "line": 4,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "y",
+                  "primed": true,
+                  "line": 4,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 4,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "Add",
+                "args": [
+                  {
+                    "name": "x",
+                    "primed": true,
+                    "line": 4.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "y",
+                    "primed": true,
+                    "line": 4.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 4.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "Add",
+                "args": [
+                  {
+                    "name": "x",
+                    "primed": true,
+                    "line": 4.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "y",
+                    "primed": true,
+                    "line": 4.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 4.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "around the beginning of function \u0027main\u0027"
+      },
+      "types": {
+        "x": "*",
+        "y": "*"
+      }
+    }
+  }
+}

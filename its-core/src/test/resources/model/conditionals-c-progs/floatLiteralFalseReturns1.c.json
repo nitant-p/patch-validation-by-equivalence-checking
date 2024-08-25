@@ -1,0 +1,120 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "b",
+            "val1": {
+              "value": "1",
+              "line": 2,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "b",
+              {
+                "value": "1",
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "b",
+              {
+                "value": "1",
+                "line": 2.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "ite",
+              "args": [
+                {
+                  "value": "0.0",
+                  "line": 3,
+                  "tokentype": "Constant"
+                },
+                {
+                  "value": "0",
+                  "line": 4,
+                  "tokentype": "Constant"
+                },
+                {
+                  "value": "1",
+                  "line": 6,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "value": "0.0",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "0",
+                    "line": 4.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "1",
+                    "line": 6.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "value": "0.0",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "0",
+                    "line": 4.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "1",
+                    "line": 6.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "b": "int"
+      }
+    }
+  }
+}

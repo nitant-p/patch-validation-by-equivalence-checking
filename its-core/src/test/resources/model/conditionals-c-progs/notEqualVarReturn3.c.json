@@ -1,0 +1,237 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "a",
+            "val1": {
+              "value": "5",
+              "line": 2,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "a",
+              {
+                "value": "5",
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "a",
+              {
+                "value": "5",
+                "line": 2.0
+              }
+            ]
+          },
+          {
+            "val0": "b",
+            "val1": {
+              "value": "3",
+              "line": 3,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "b",
+              {
+                "value": "3",
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "b",
+              {
+                "value": "3",
+                "line": 3.0
+              }
+            ]
+          },
+          {
+            "val0": "c",
+            "val1": {
+              "value": "5",
+              "line": 4,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "c",
+              {
+                "value": "5",
+                "line": 4.0
+              }
+            ],
+            "valueList": [
+              "c",
+              {
+                "value": "5",
+                "line": 4.0
+              }
+            ]
+          },
+          {
+            "val0": "d",
+            "val1": {
+              "value": "3",
+              "line": 5,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "d",
+              {
+                "value": "3",
+                "line": 5.0
+              }
+            ],
+            "valueList": [
+              "d",
+              {
+                "value": "3",
+                "line": 5.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "ite",
+              "args": [
+                {
+                  "name": "!\u003d",
+                  "args": [
+                    {
+                      "name": "a",
+                      "primed": true,
+                      "line": 2,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "d",
+                      "primed": true,
+                      "line": 5,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 7,
+                  "tokentype": "Operation"
+                },
+                {
+                  "name": "b",
+                  "primed": true,
+                  "line": 3,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "c",
+                  "primed": true,
+                  "line": 4,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 7,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "!\u003d",
+                    "args": [
+                      {
+                        "name": "a",
+                        "primed": true,
+                        "line": 2.0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "d",
+                        "primed": true,
+                        "line": 5.0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 7.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "b",
+                    "primed": true,
+                    "line": 3.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "c",
+                    "primed": true,
+                    "line": 4.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 7.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "!\u003d",
+                    "args": [
+                      {
+                        "name": "a",
+                        "primed": true,
+                        "line": 2.0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "d",
+                        "primed": true,
+                        "line": 5.0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 7.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "b",
+                    "primed": true,
+                    "line": 3.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "c",
+                    "primed": true,
+                    "line": 4.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 7.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "a": "int",
+        "b": "int",
+        "c": "int",
+        "d": "int"
+      }
+    }
+  }
+}

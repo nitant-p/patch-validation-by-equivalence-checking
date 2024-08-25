@@ -1,0 +1,69 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "bool",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "a",
+            "val1": {
+              "value": "false",
+              "line": 2,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "a",
+              {
+                "value": "false",
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "a",
+              {
+                "value": "false",
+                "line": 2.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "value": "true",
+              "line": 3,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "value": "true",
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "value": "true",
+                "line": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "a": "bool"
+      }
+    }
+  }
+}

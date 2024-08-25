@@ -1,0 +1,84 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "/",
+              "args": [
+                {
+                  "value": "10",
+                  "line": 2,
+                  "tokentype": "Constant"
+                },
+                {
+                  "value": "2",
+                  "line": 2,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 2,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "/",
+                "args": [
+                  {
+                    "value": "10",
+                    "line": 2.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "2",
+                    "line": 2.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "/",
+                "args": [
+                  {
+                    "value": "10",
+                    "line": 2.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "2",
+                    "line": 2.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 2.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {}
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}

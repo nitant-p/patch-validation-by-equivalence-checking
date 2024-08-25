@@ -1,0 +1,179 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "x",
+            "val1": {
+              "name": "-",
+              "args": [
+                {
+                  "value": "5",
+                  "line": 2,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 2,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "x",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "value": "5",
+                    "line": 2.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "x",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "value": "5",
+                    "line": 2.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 2.0
+              }
+            ]
+          },
+          {
+            "val0": "y",
+            "val1": {
+              "name": "-",
+              "args": [
+                {
+                  "value": "10",
+                  "line": 3,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "y",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "value": "10",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "y",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "value": "10",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "-",
+              "args": [
+                {
+                  "name": "x",
+                  "primed": true,
+                  "line": 2,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "y",
+                  "primed": true,
+                  "line": 3,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 4,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "name": "x",
+                    "primed": true,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "y",
+                    "primed": true,
+                    "line": 3.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 4.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "-",
+                "args": [
+                  {
+                    "name": "x",
+                    "primed": true,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "y",
+                    "primed": true,
+                    "line": 3.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 4.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "x": "int",
+        "y": "int"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}

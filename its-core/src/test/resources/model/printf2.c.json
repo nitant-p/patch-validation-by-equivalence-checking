@@ -1,0 +1,190 @@
+{
+  "importStatements": [
+    "#include \u003cstdio.h\u003e"
+  ],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "a",
+            "val1": {
+              "value": "1",
+              "line": 3,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "a",
+              {
+                "value": "1",
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "a",
+              {
+                "value": "1",
+                "line": 3.0
+              }
+            ]
+          },
+          {
+            "val0": "b",
+            "val1": {
+              "value": "2",
+              "line": 4,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "b",
+              {
+                "value": "2",
+                "line": 4.0
+              }
+            ],
+            "valueList": [
+              "b",
+              {
+                "value": "2",
+                "line": 4.0
+              }
+            ]
+          },
+          {
+            "val0": "$out",
+            "val1": {
+              "name": "StrAppend",
+              "args": [
+                {
+                  "name": "$out",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "StrFormat",
+                  "args": [
+                    {
+                      "value": "\"Num1: %d, Num2: %d\"",
+                      "line": 5,
+                      "tokentype": "Constant"
+                    },
+                    {
+                      "name": "a",
+                      "primed": true,
+                      "line": 3,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "b",
+                      "primed": true,
+                      "line": 4,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 5,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$out",
+              {
+                "name": "StrAppend",
+                "args": [
+                  {
+                    "name": "$out",
+                    "primed": false,
+                    "line": 0.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "StrFormat",
+                    "args": [
+                      {
+                        "value": "\"Num1: %d, Num2: %d\"",
+                        "line": 5.0,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "name": "a",
+                        "primed": true,
+                        "line": 3.0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b",
+                        "primed": true,
+                        "line": 4.0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 5.0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5.0
+              }
+            ],
+            "valueList": [
+              "$out",
+              {
+                "name": "StrAppend",
+                "args": [
+                  {
+                    "name": "$out",
+                    "primed": false,
+                    "line": 0.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "StrFormat",
+                    "args": [
+                      {
+                        "value": "\"Num1: %d, Num2: %d\"",
+                        "line": 5.0,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "name": "a",
+                        "primed": true,
+                        "line": 3.0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "b",
+                        "primed": true,
+                        "line": 4.0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 5.0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 5.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "a": "int",
+        "b": "int"
+      }
+    }
+  }
+}

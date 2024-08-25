@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <artifactId>its-patch-validation</artifactId>
+
+  <dependencies>
+
+
+    <dependency>
+      <groupId>sg.edu.nus.se.its</groupId>
+      <artifactId>its-core</artifactId>
+      <version>0.0.1</version>
+    </dependency>
+
+
+    <dependency>
+      <groupId>com.google.ortools</groupId>
+      <artifactId>ortools-java</artifactId>
+      <version>9.0.9048</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.ortools</groupId>
+      <artifactId>ortools-win32-x86-64</artifactId>
+      <version>9.0.9048</version>
+    </dependency>
+
+    <dependency>
+      <groupId>tools.aqua</groupId>
+      <artifactId>z3-turnkey</artifactId>
+      <version>4.12.5</version>
+    </dependency>
+    <dependency>
+      <groupId>sg.edu.nus.se.its</groupId>
+      <artifactId>its-integration-services</artifactId>
+      <version>0.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.2</version>
+      </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>11</source>
+                <target>11</target>
+            </configuration>
+        </plugin>
+    </plugins>
+  </build>
+
+  <parent>
+    <artifactId>its-all</artifactId>
+    <groupId>sg.edu.nus.se.its</groupId>
+    <version>0.0.1</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  
+  <packaging>jar</packaging>
+  
+  <properties>
+    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>11</maven.compiler.source>
+  </properties>
+
+</project>

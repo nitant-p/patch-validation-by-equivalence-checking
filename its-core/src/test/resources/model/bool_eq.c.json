@@ -1,0 +1,136 @@
+{
+  "importStatements": [
+    "#include \u003cstdio.h\u003e"
+  ],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "bool",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "a",
+            "val1": {
+              "value": "20",
+              "line": 3,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "a",
+              {
+                "value": "20",
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "a",
+              {
+                "value": "20",
+                "line": 3.0
+              }
+            ]
+          },
+          {
+            "val0": "b",
+            "val1": {
+              "value": "10",
+              "line": 4,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "b",
+              {
+                "value": "10",
+                "line": 4.0
+              }
+            ],
+            "valueList": [
+              "b",
+              {
+                "value": "10",
+                "line": 4.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "\u003d\u003d",
+              "args": [
+                {
+                  "name": "a",
+                  "primed": true,
+                  "line": 3,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "b",
+                  "primed": true,
+                  "line": 4,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "\u003d\u003d",
+                "args": [
+                  {
+                    "name": "a",
+                    "primed": true,
+                    "line": 3.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "b",
+                    "primed": true,
+                    "line": 4.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 5.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "\u003d\u003d",
+                "args": [
+                  {
+                    "name": "a",
+                    "primed": true,
+                    "line": 3.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "b",
+                    "primed": true,
+                    "line": 4.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 5.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "a": "int",
+        "b": "int"
+      }
+    }
+  }
+}

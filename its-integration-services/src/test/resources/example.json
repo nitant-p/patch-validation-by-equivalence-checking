@@ -1,0 +1,30 @@
+{
+  "language_version": {
+    "language": "python",
+    "version": 3.9
+  },
+  "files_solution": [
+    {
+      "path": "main.py",
+      "content": "def is_odd(x):\n\tif x % 2 == 0:\n\t\treturn False\n\telse:\n\t\treturn True"
+    }
+  ],
+  "files_student": [
+    {
+      "path": "main.py",
+      "content": "def is_odd(x):\n\tif x % 2 == 1:\n\t\treturn False\n\telse:\n\t\treturn True"
+    }
+  ],
+  "test_cases": [
+    {
+      "index": 1,
+      "type": "expression",
+      "expression": "is_odd(3) == True"
+    },
+    {
+      "index": 2,
+      "type": "expression",
+      "expression": "is_odd(4) == False"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "func": {
+      "name": "func",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [
+        {
+          "val0": "i",
+          "val1": "int",
+          "valueArray": [
+            "i",
+            "int"
+          ],
+          "valueList": [
+            "i",
+            "int"
+          ]
+        }
+      ],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "k",
+            "val1": {
+              "name": "i",
+              "primed": false,
+              "line": 2,
+              "tokentype": "Variable"
+            },
+            "valueArray": [
+              "k",
+              {
+                "name": "i",
+                "primed": false,
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "k",
+              {
+                "name": "i",
+                "primed": false,
+                "line": 2.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "func2",
+              "args": [
+                {
+                  "name": "k",
+                  "primed": true,
+                  "line": 8,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 9,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "func2",
+                "args": [
+                  {
+                    "name": "k",
+                    "primed": true,
+                    "line": 8.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 9.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "func2",
+                "args": [
+                  {
+                    "name": "k",
+                    "primed": true,
+                    "line": 8.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 9.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027func\u0027"
+      },
+      "types": {
+        "i": "int",
+        "k": "int"
+      }
+    },
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "i",
+            "val1": {
+              "value": "10",
+              "line": 2,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "i",
+              {
+                "value": "10",
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "i",
+              {
+                "value": "10",
+                "line": 2.0
+              }
+            ]
+          },
+          {
+            "val0": "j",
+            "val1": {
+              "name": "func",
+              "args": [
+                {
+                  "name": "i",
+                  "primed": true,
+                  "line": 2,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "j",
+              {
+                "name": "func",
+                "args": [
+                  {
+                    "name": "i",
+                    "primed": true,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "j",
+              {
+                "name": "func",
+                "args": [
+                  {
+                    "name": "i",
+                    "primed": true,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 3.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "j",
+              "primed": true,
+              "line": 3,
+              "tokentype": "Variable"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "j",
+                "primed": true,
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "j",
+                "primed": true,
+                "line": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "i": "int",
+        "j": "int"
+      }
+    },
+    "func2": {
+      "name": "func2",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [
+        {
+          "val0": "m",
+          "val1": "int",
+          "valueArray": [
+            "m",
+            "int"
+          ],
+          "valueList": [
+            "m",
+            "int"
+          ]
+        }
+      ],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "+",
+              "args": [
+                {
+                  "name": "m",
+                  "primed": false,
+                  "line": 12,
+                  "tokentype": "Variable"
+                },
+                {
+                  "value": "3019",
+                  "line": 13,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 13,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "m",
+                    "primed": false,
+                    "line": 12.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "3019",
+                    "line": 13.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 13.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "m",
+                    "primed": false,
+                    "line": 12.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "3019",
+                    "line": 13.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 13.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027func2\u0027"
+      },
+      "types": {
+        "m": "int"
+      }
+    }
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "a",
+            "val1": {
+              "name": "ArrayAssign",
+              "args": [
+                {
+                  "name": "ArrayAssign",
+                  "args": [
+                    {
+                      "name": "ArrayAssign",
+                      "args": [
+                        {
+                          "name": "ArrayCreate",
+                          "args": [
+                            {
+                              "value": "5",
+                              "line": 2,
+                              "tokentype": "Constant"
+                            }
+                          ],
+                          "line": 2,
+                          "tokentype": "Operation"
+                        },
+                        {
+                          "value": "0",
+                          "line": 3,
+                          "tokentype": "Constant"
+                        },
+                        {
+                          "value": "1",
+                          "line": 3,
+                          "tokentype": "Constant"
+                        }
+                      ],
+                      "line": 3,
+                      "tokentype": "Operation"
+                    },
+                    {
+                      "value": "1",
+                      "line": 4,
+                      "tokentype": "Constant"
+                    },
+                    {
+                      "value": "2",
+                      "line": 4,
+                      "tokentype": "Constant"
+                    }
+                  ],
+                  "line": 4,
+                  "tokentype": "Operation"
+                },
+                {
+                  "value": "2",
+                  "line": 5,
+                  "tokentype": "Constant"
+                },
+                {
+                  "value": "3",
+                  "line": 5,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 5,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "a",
+              {
+                "name": "ArrayAssign",
+                "args": [
+                  {
+                    "name": "ArrayAssign",
+                    "args": [
+                      {
+                        "name": "ArrayAssign",
+                        "args": [
+                          {
+                            "name": "ArrayCreate",
+                            "args": [
+                              {
+                                "value": "5",
+                                "line": 2.0,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 2.0,
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "value": "0",
+                            "line": 3.0,
+                            "tokentype": "Constant"
+                          },
+                          {
+                            "value": "1",
+                            "line": 3.0,
+                            "tokentype": "Constant"
+                          }
+                        ],
+                        "line": 3.0,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "value": "1",
+                        "line": 4.0,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "value": "2",
+                        "line": 4.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 4.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "2",
+                    "line": 5.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "3",
+                    "line": 5.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 5.0
+              }
+            ],
+            "valueList": [
+              "a",
+              {
+                "name": "ArrayAssign",
+                "args": [
+                  {
+                    "name": "ArrayAssign",
+                    "args": [
+                      {
+                        "name": "ArrayAssign",
+                        "args": [
+                          {
+                            "name": "ArrayCreate",
+                            "args": [
+                              {
+                                "value": "5",
+                                "line": 2.0,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 2.0,
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "value": "0",
+                            "line": 3.0,
+                            "tokentype": "Constant"
+                          },
+                          {
+                            "value": "1",
+                            "line": 3.0,
+                            "tokentype": "Constant"
+                          }
+                        ],
+                        "line": 3.0,
+                        "tokentype": "Operation"
+                      },
+                      {
+                        "value": "1",
+                        "line": 4.0,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "value": "2",
+                        "line": 4.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 4.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "2",
+                    "line": 5.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "3",
+                    "line": 5.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 5.0
+              }
+            ]
+          },
+          {
+            "val0": "b",
+            "val1": {
+              "name": "ArrayAssign",
+              "args": [
+                {
+                  "name": "ArrayCreate",
+                  "args": [
+                    {
+                      "value": "5",
+                      "line": 6,
+                      "tokentype": "Constant"
+                    }
+                  ],
+                  "line": 6,
+                  "tokentype": "Operation"
+                },
+                {
+                  "value": "0",
+                  "line": 7,
+                  "tokentype": "Constant"
+                },
+                {
+                  "value": "300",
+                  "line": 7,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 7,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "b",
+              {
+                "name": "ArrayAssign",
+                "args": [
+                  {
+                    "name": "ArrayCreate",
+                    "args": [
+                      {
+                        "value": "5",
+                        "line": 6.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 6.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "0",
+                    "line": 7.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "300",
+                    "line": 7.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 7.0
+              }
+            ],
+            "valueList": [
+              "b",
+              {
+                "name": "ArrayAssign",
+                "args": [
+                  {
+                    "name": "ArrayCreate",
+                    "args": [
+                      {
+                        "value": "5",
+                        "line": 6.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 6.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "0",
+                    "line": 7.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "300",
+                    "line": 7.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 7.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "[]",
+              "args": [
+                {
+                  "name": "a",
+                  "primed": true,
+                  "line": 2,
+                  "tokentype": "Variable"
+                },
+                {
+                  "value": "1",
+                  "line": 8,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 8,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "[]",
+                "args": [
+                  {
+                    "name": "a",
+                    "primed": true,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "1",
+                    "line": 8.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 8.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "[]",
+                "args": [
+                  {
+                    "name": "a",
+                    "primed": true,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "1",
+                    "line": 8.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 8.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "a": "int[]",
+        "b": "int[]"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}

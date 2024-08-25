@@ -1,0 +1,402 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "factorial": {
+      "name": "factorial",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [
+        {
+          "val0": "n",
+          "val1": "int",
+          "valueArray": [
+            "n",
+            "int"
+          ],
+          "valueList": [
+            "n",
+            "int"
+          ]
+        }
+      ],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "ite",
+              "args": [
+                {
+                  "name": "\u003c\u003d",
+                  "args": [
+                    {
+                      "name": "n",
+                      "primed": false,
+                      "line": 1,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "value": "1",
+                      "line": 2,
+                      "tokentype": "Constant"
+                    }
+                  ],
+                  "line": 2,
+                  "tokentype": "Operation"
+                },
+                {
+                  "value": "1",
+                  "line": 3,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "*",
+                  "args": [
+                    {
+                      "name": "n",
+                      "primed": false,
+                      "line": 1,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "FuncCall",
+                      "args": [
+                        {
+                          "name": "factorial",
+                          "primed": false,
+                          "line": 5,
+                          "tokentype": "Variable"
+                        },
+                        {
+                          "name": "-",
+                          "args": [
+                            {
+                              "name": "n",
+                              "primed": false,
+                              "line": 1,
+                              "tokentype": "Variable"
+                            },
+                            {
+                              "value": "1",
+                              "line": 5,
+                              "tokentype": "Constant"
+                            }
+                          ],
+                          "line": 5,
+                          "tokentype": "Operation"
+                        }
+                      ],
+                      "line": 5,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 5,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 2,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "\u003c\u003d",
+                    "args": [
+                      {
+                        "name": "n",
+                        "primed": false,
+                        "line": 1.0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "value": "1",
+                        "line": 2.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 2.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "1",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "*",
+                    "args": [
+                      {
+                        "name": "n",
+                        "primed": false,
+                        "line": 1.0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "FuncCall",
+                        "args": [
+                          {
+                            "name": "factorial",
+                            "primed": false,
+                            "line": 5.0,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "-",
+                            "args": [
+                              {
+                                "name": "n",
+                                "primed": false,
+                                "line": 1.0,
+                                "tokentype": "Variable"
+                              },
+                              {
+                                "value": "1",
+                                "line": 5.0,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 5.0,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 5.0,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 5.0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "\u003c\u003d",
+                    "args": [
+                      {
+                        "name": "n",
+                        "primed": false,
+                        "line": 1.0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "value": "1",
+                        "line": 2.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 2.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "1",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "*",
+                    "args": [
+                      {
+                        "name": "n",
+                        "primed": false,
+                        "line": 1.0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "FuncCall",
+                        "args": [
+                          {
+                            "name": "factorial",
+                            "primed": false,
+                            "line": 5.0,
+                            "tokentype": "Variable"
+                          },
+                          {
+                            "name": "-",
+                            "args": [
+                              {
+                                "name": "n",
+                                "primed": false,
+                                "line": 1.0,
+                                "tokentype": "Variable"
+                              },
+                              {
+                                "value": "1",
+                                "line": 5.0,
+                                "tokentype": "Constant"
+                              }
+                            ],
+                            "line": 5.0,
+                            "tokentype": "Operation"
+                          }
+                        ],
+                        "line": 5.0,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 5.0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 2.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027factorial\u0027"
+      },
+      "types": {
+        "n": "int"
+      }
+    },
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "num",
+            "val1": {
+              "value": "5",
+              "line": 10,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "num",
+              {
+                "value": "5",
+                "line": 10.0
+              }
+            ],
+            "valueList": [
+              "num",
+              {
+                "value": "5",
+                "line": 10.0
+              }
+            ]
+          },
+          {
+            "val0": "result",
+            "val1": {
+              "name": "FuncCall",
+              "args": [
+                {
+                  "name": "factorial",
+                  "primed": false,
+                  "line": 11,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "num",
+                  "primed": true,
+                  "line": 10,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 11,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "result",
+              {
+                "name": "FuncCall",
+                "args": [
+                  {
+                    "name": "factorial",
+                    "primed": false,
+                    "line": 11.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "num",
+                    "primed": true,
+                    "line": 10.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 11.0
+              }
+            ],
+            "valueList": [
+              "result",
+              {
+                "name": "FuncCall",
+                "args": [
+                  {
+                    "name": "factorial",
+                    "primed": false,
+                    "line": 11.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "num",
+                    "primed": true,
+                    "line": 10.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 11.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "result",
+              "primed": true,
+              "line": 11,
+              "tokentype": "Variable"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "result",
+                "primed": true,
+                "line": 11.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "result",
+                "primed": true,
+                "line": 11.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "result": "int",
+        "num": "int"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}

@@ -1,0 +1,231 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "func": {
+      "name": "func",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [
+        {
+          "val0": "k",
+          "val1": "int",
+          "valueArray": [
+            "k",
+            "int"
+          ],
+          "valueList": [
+            "k",
+            "int"
+          ]
+        }
+      ],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "k",
+              "primed": false,
+              "line": 7,
+              "tokentype": "Variable"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "k",
+                "primed": false,
+                "line": 7.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "k",
+                "primed": false,
+                "line": 7.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027func\u0027"
+      },
+      "types": {
+        "k": "int"
+      }
+    },
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "i",
+            "val1": {
+              "value": "10",
+              "line": 2,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "i",
+              {
+                "value": "10",
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "i",
+              {
+                "value": "10",
+                "line": 2.0
+              }
+            ]
+          },
+          {
+            "val0": "j",
+            "val1": {
+              "name": "+",
+              "args": [
+                {
+                  "name": "func",
+                  "args": [
+                    {
+                      "value": "3",
+                      "line": 3,
+                      "tokentype": "Constant"
+                    }
+                  ],
+                  "line": 3,
+                  "tokentype": "Operation"
+                },
+                {
+                  "name": "func",
+                  "args": [
+                    {
+                      "value": "5",
+                      "line": 3,
+                      "tokentype": "Constant"
+                    }
+                  ],
+                  "line": 3,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "j",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "func",
+                    "args": [
+                      {
+                        "value": "3",
+                        "line": 3.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 3.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "func",
+                    "args": [
+                      {
+                        "value": "5",
+                        "line": 3.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 3.0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "j",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "func",
+                    "args": [
+                      {
+                        "value": "3",
+                        "line": 3.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 3.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "func",
+                    "args": [
+                      {
+                        "value": "5",
+                        "line": 3.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 3.0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 3.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "j",
+              "primed": true,
+              "line": 3,
+              "tokentype": "Variable"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "j",
+                "primed": true,
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "j",
+                "primed": true,
+                "line": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "i": "int",
+        "j": "int"
+      }
+    }
+  }
+}

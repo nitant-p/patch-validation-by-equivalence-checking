@@ -1,0 +1,221 @@
+{
+  "importStatements": [
+    "#include \u003cstdio.h\u003e"
+  ],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "name",
+            "val1": {
+              "name": "ArrayDeclaration",
+              "args": [
+                {
+                  "name": "ArrayCreate",
+                  "args": [
+                    {
+                      "value": "?",
+                      "line": 3,
+                      "tokentype": "Constant"
+                    }
+                  ],
+                  "line": 3,
+                  "tokentype": "Operation"
+                },
+                {
+                  "value": "char",
+                  "line": 3,
+                  "tokentype": "Constant"
+                },
+                {
+                  "value": "\"Snigdha\"",
+                  "line": 3,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "name",
+              {
+                "name": "ArrayDeclaration",
+                "args": [
+                  {
+                    "name": "ArrayCreate",
+                    "args": [
+                      {
+                        "value": "?",
+                        "line": 3.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 3.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "char",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "\"Snigdha\"",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "name",
+              {
+                "name": "ArrayDeclaration",
+                "args": [
+                  {
+                    "name": "ArrayCreate",
+                    "args": [
+                      {
+                        "value": "?",
+                        "line": 3.0,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 3.0,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "value": "char",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "value": "\"Snigdha\"",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3.0
+              }
+            ]
+          },
+          {
+            "val0": "$out",
+            "val1": {
+              "name": "StrAppend",
+              "args": [
+                {
+                  "name": "$out",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "StrFormat",
+                  "args": [
+                    {
+                      "value": "\"Name: %s\"",
+                      "line": 4,
+                      "tokentype": "Constant"
+                    },
+                    {
+                      "name": "name",
+                      "primed": true,
+                      "line": 3,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 4,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 4,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$out",
+              {
+                "name": "StrAppend",
+                "args": [
+                  {
+                    "name": "$out",
+                    "primed": false,
+                    "line": 0.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "StrFormat",
+                    "args": [
+                      {
+                        "value": "\"Name: %s\"",
+                        "line": 4.0,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "name": "name",
+                        "primed": true,
+                        "line": 3.0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 4.0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 4.0
+              }
+            ],
+            "valueList": [
+              "$out",
+              {
+                "name": "StrAppend",
+                "args": [
+                  {
+                    "name": "$out",
+                    "primed": false,
+                    "line": 0.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "StrFormat",
+                    "args": [
+                      {
+                        "value": "\"Name: %s\"",
+                        "line": 4.0,
+                        "tokentype": "Constant"
+                      },
+                      {
+                        "name": "name",
+                        "primed": true,
+                        "line": 3.0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 4.0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 4.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "name": "char[]"
+      }
+    }
+  }
+}

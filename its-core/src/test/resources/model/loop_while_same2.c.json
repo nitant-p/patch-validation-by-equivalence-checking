@@ -1,0 +1,213 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "sameWhile2",
+            "val1": {
+              "value": "0",
+              "line": 2,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "sameWhile2",
+              {
+                "value": "0",
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "sameWhile2",
+              {
+                "value": "0",
+                "line": 2.0
+              }
+            ]
+          }
+        ],
+        "2": [
+          {
+            "val0": "$cond",
+            "val1": {
+              "name": "\u003c",
+              "args": [
+                {
+                  "name": "sameWhile2",
+                  "primed": false,
+                  "line": 2,
+                  "tokentype": "Variable"
+                },
+                {
+                  "value": "10",
+                  "line": 3,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$cond",
+              {
+                "name": "\u003c",
+                "args": [
+                  {
+                    "name": "sameWhile2",
+                    "primed": false,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "10",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3.0
+              }
+            ],
+            "valueList": [
+              "$cond",
+              {
+                "name": "\u003c",
+                "args": [
+                  {
+                    "name": "sameWhile2",
+                    "primed": false,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "10",
+                    "line": 3.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3.0
+              }
+            ]
+          }
+        ],
+        "3": [
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "sameWhile2",
+              "primed": false,
+              "line": 2,
+              "tokentype": "Variable"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "sameWhile2",
+                "primed": false,
+                "line": 2.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "sameWhile2",
+                "primed": false,
+                "line": 2.0
+              }
+            ]
+          }
+        ],
+        "4": [
+          {
+            "val0": "sameWhile2",
+            "val1": {
+              "name": "+",
+              "args": [
+                {
+                  "name": "sameWhile2",
+                  "primed": false,
+                  "line": 2,
+                  "tokentype": "Variable"
+                },
+                {
+                  "value": "1",
+                  "line": 4,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 4,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "sameWhile2",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "sameWhile2",
+                    "primed": false,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "1",
+                    "line": 4.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 4.0
+              }
+            ],
+            "valueList": [
+              "sameWhile2",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "sameWhile2",
+                    "primed": false,
+                    "line": 2.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "1",
+                    "line": 4.0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 4.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "true": 2
+        },
+        "2": {
+          "false": 3,
+          "true": 4
+        },
+        "3": {},
+        "4": {
+          "true": 2
+        }
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027",
+        "2": "the condition of the \u0027while\u0027 loop at line 3",
+        "3": "*after* the \u0027while\u0027 loop starting at line 3",
+        "4": "inside the body of the \u0027while\u0027 loop beginning at line 3"
+      },
+      "types": {
+        "sameWhile2": "int"
+      }
+    }
+  }
+}

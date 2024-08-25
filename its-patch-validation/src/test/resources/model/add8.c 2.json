@@ -1,0 +1,120 @@
+{
+  "importStatements": [
+    "#include \u003cstdio.h\u003e",
+    "#include \u003climits.h\u003e"
+  ],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "result",
+            "val1": {
+              "name": "+",
+              "args": [
+                {
+                  "name": "INT_MAX",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "INT_MAX",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 6,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "result",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "INT_MAX",
+                    "primed": false,
+                    "line": 0.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "INT_MAX",
+                    "primed": false,
+                    "line": 0.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 6.0
+              }
+            ],
+            "valueList": [
+              "result",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "INT_MAX",
+                    "primed": false,
+                    "line": 0.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "INT_MAX",
+                    "primed": false,
+                    "line": 0.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 6.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "result",
+              "primed": true,
+              "line": 6,
+              "tokentype": "Variable"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "result",
+                "primed": true,
+                "line": 6.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "result",
+                "primed": true,
+                "line": 6.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "result": "int"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}

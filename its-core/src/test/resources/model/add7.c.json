@@ -1,0 +1,146 @@
+{
+  "importStatements": [
+    "#include \u003cstdio.h\u003e",
+    "#include \u003climits.h\u003e"
+  ],
+  "fncs": {
+    "main": {
+      "name": "main",
+      "rettype": "int",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "maxInt",
+            "val1": {
+              "name": "INT_MAX",
+              "primed": false,
+              "line": 0,
+              "tokentype": "Variable"
+            },
+            "valueArray": [
+              "maxInt",
+              {
+                "name": "INT_MAX",
+                "primed": false,
+                "line": 0.0
+              }
+            ],
+            "valueList": [
+              "maxInt",
+              {
+                "name": "INT_MAX",
+                "primed": false,
+                "line": 0.0
+              }
+            ]
+          },
+          {
+            "val0": "result",
+            "val1": {
+              "name": "+",
+              "args": [
+                {
+                  "name": "maxInt",
+                  "primed": true,
+                  "line": 6,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "maxInt",
+                  "primed": true,
+                  "line": 6,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 7,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "result",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "maxInt",
+                    "primed": true,
+                    "line": 6.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "maxInt",
+                    "primed": true,
+                    "line": 6.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 7.0
+              }
+            ],
+            "valueList": [
+              "result",
+              {
+                "name": "+",
+                "args": [
+                  {
+                    "name": "maxInt",
+                    "primed": true,
+                    "line": 6.0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "maxInt",
+                    "primed": true,
+                    "line": 6.0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 7.0
+              }
+            ]
+          },
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "result",
+              "primed": true,
+              "line": 7,
+              "tokentype": "Variable"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "result",
+                "primed": true,
+                "line": 7.0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "result",
+                "primed": true,
+                "line": 7.0
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {}
+      },
+      "locdescs": {
+        "1": "at the beginning of the function \u0027main\u0027"
+      },
+      "types": {
+        "result": "int",
+        "maxInt": "int"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}

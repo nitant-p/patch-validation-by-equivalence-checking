@@ -1,0 +1,705 @@
+{
+  "importStatements": [],
+  "fncs": {
+    "computeDeriv": {
+      "name": "computeDeriv",
+      "rettype": "*",
+      "initloc": 1,
+      "endloc": 0,
+      "params": [
+        {
+          "val0": "poly",
+          "val1": "*",
+          "valueArray": [
+            "poly",
+            "*"
+          ],
+          "valueList": [
+            "poly",
+            "*"
+          ]
+        }
+      ],
+      "locexprs": {
+        "1": [
+          {
+            "val0": "result",
+            "val1": {
+              "name": "ListInit",
+              "args": [],
+              "line": 2,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "result",
+              {
+                "name": "ListInit",
+                "args": [],
+                "line": 2
+              }
+            ],
+            "valueList": [
+              "result",
+              {
+                "name": "ListInit",
+                "args": [],
+                "line": 2
+              }
+            ]
+          },
+          {
+            "val0": "iter#0",
+            "val1": {
+              "name": "range",
+              "args": [
+                {
+                  "value": "1",
+                  "line": 3,
+                  "tokentype": "Constant"
+                },
+                {
+                  "name": "len",
+                  "args": [
+                    {
+                      "name": "poly",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 3,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "iter#0",
+              {
+                "name": "range",
+                "args": [
+                  {
+                    "value": "1",
+                    "line": 3,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "len",
+                    "args": [
+                      {
+                        "name": "poly",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 3,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 3
+              }
+            ],
+            "valueList": [
+              "iter#0",
+              {
+                "name": "range",
+                "args": [
+                  {
+                    "value": "1",
+                    "line": 3,
+                    "tokentype": "Constant"
+                  },
+                  {
+                    "name": "len",
+                    "args": [
+                      {
+                        "name": "poly",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 3,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 3
+              }
+            ]
+          },
+          {
+            "val0": "ind#0",
+            "val1": {
+              "value": "0",
+              "line": 3,
+              "tokentype": "Constant"
+            },
+            "valueArray": [
+              "ind#0",
+              {
+                "value": "0",
+                "line": 3
+              }
+            ],
+            "valueList": [
+              "ind#0",
+              {
+                "value": "0",
+                "line": 3
+              }
+            ]
+          }
+        ],
+        "2": [
+          {
+            "val0": "$cond",
+            "val1": {
+              "name": "Lt",
+              "args": [
+                {
+                  "name": "ind#0",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "len",
+                  "args": [
+                    {
+                      "name": "iter#0",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    }
+                  ],
+                  "line": 0,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$cond",
+              {
+                "name": "Lt",
+                "args": [
+                  {
+                    "name": "ind#0",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "len",
+                    "args": [
+                      {
+                        "name": "iter#0",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 3
+              }
+            ],
+            "valueList": [
+              "$cond",
+              {
+                "name": "Lt",
+                "args": [
+                  {
+                    "name": "ind#0",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "len",
+                    "args": [
+                      {
+                        "name": "iter#0",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      }
+                    ],
+                    "line": 0,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 3
+              }
+            ]
+          }
+        ],
+        "3": [
+          {
+            "val0": "$ret",
+            "val1": {
+              "name": "ite",
+              "args": [
+                {
+                  "name": "Eq",
+                  "args": [
+                    {
+                      "name": "result",
+                      "primed": false,
+                      "line": 0,
+                      "tokentype": "Variable"
+                    },
+                    {
+                      "name": "ListInit",
+                      "args": [],
+                      "line": 6,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 6,
+                  "tokentype": "Operation"
+                },
+                {
+                  "name": "ListInit",
+                  "args": [
+                    {
+                      "value": "0.0",
+                      "line": 7,
+                      "tokentype": "Constant"
+                    }
+                  ],
+                  "line": 7,
+                  "tokentype": "Operation"
+                },
+                {
+                  "name": "result",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 0,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "$ret",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "Eq",
+                    "args": [
+                      {
+                        "name": "result",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "ListInit",
+                        "args": [],
+                        "line": 6,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "ListInit",
+                    "args": [
+                      {
+                        "value": "0.0",
+                        "line": 7,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 7,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "result",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 0
+              }
+            ],
+            "valueList": [
+              "$ret",
+              {
+                "name": "ite",
+                "args": [
+                  {
+                    "name": "Eq",
+                    "args": [
+                      {
+                        "name": "result",
+                        "primed": false,
+                        "line": 0,
+                        "tokentype": "Variable"
+                      },
+                      {
+                        "name": "ListInit",
+                        "args": [],
+                        "line": 6,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 6,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "ListInit",
+                    "args": [
+                      {
+                        "value": "0.0",
+                        "line": 7,
+                        "tokentype": "Constant"
+                      }
+                    ],
+                    "line": 7,
+                    "tokentype": "Operation"
+                  },
+                  {
+                    "name": "result",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 0
+              }
+            ]
+          }
+        ],
+        "4": [
+          {
+            "val0": "e",
+            "val1": {
+              "name": "GetElement",
+              "args": [
+                {
+                  "name": "iter#0",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "ind#0",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "e",
+              {
+                "name": "GetElement",
+                "args": [
+                  {
+                    "name": "iter#0",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "ind#0",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 3
+              }
+            ],
+            "valueList": [
+              "e",
+              {
+                "name": "GetElement",
+                "args": [
+                  {
+                    "name": "iter#0",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "ind#0",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  }
+                ],
+                "line": 3
+              }
+            ]
+          },
+          {
+            "val0": "ind#0",
+            "val1": {
+              "name": "Add",
+              "args": [
+                {
+                  "name": "ind#0",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                },
+                {
+                  "value": "1",
+                  "line": 0,
+                  "tokentype": "Constant"
+                }
+              ],
+              "line": 3,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "ind#0",
+              {
+                "name": "Add",
+                "args": [
+                  {
+                    "name": "ind#0",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "1",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3
+              }
+            ],
+            "valueList": [
+              "ind#0",
+              {
+                "name": "Add",
+                "args": [
+                  {
+                    "name": "ind#0",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "value": "1",
+                    "line": 0,
+                    "tokentype": "Constant"
+                  }
+                ],
+                "line": 3
+              }
+            ]
+          },
+          {
+            "val0": "result",
+            "val1": {
+              "name": "append",
+              "args": [
+                {
+                  "name": "result",
+                  "primed": false,
+                  "line": 0,
+                  "tokentype": "Variable"
+                },
+                {
+                  "name": "float",
+                  "args": [
+                    {
+                      "name": "Mult",
+                      "args": [
+                        {
+                          "name": "GetElement",
+                          "args": [
+                            {
+                              "name": "poly",
+                              "primed": false,
+                              "line": 0,
+                              "tokentype": "Variable"
+                            },
+                            {
+                              "name": "e",
+                              "primed": true,
+                              "line": 0,
+                              "tokentype": "Variable"
+                            }
+                          ],
+                          "line": 4,
+                          "tokentype": "Operation"
+                        },
+                        {
+                          "name": "e",
+                          "primed": true,
+                          "line": 0,
+                          "tokentype": "Variable"
+                        }
+                      ],
+                      "line": 4,
+                      "tokentype": "Operation"
+                    }
+                  ],
+                  "line": 4,
+                  "tokentype": "Operation"
+                }
+              ],
+              "line": 4,
+              "tokentype": "Operation"
+            },
+            "valueArray": [
+              "result",
+              {
+                "name": "append",
+                "args": [
+                  {
+                    "name": "result",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "float",
+                    "args": [
+                      {
+                        "name": "Mult",
+                        "args": [
+                          {
+                            "name": "GetElement",
+                            "args": [
+                              {
+                                "name": "poly",
+                                "primed": false,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              },
+                              {
+                                "name": "e",
+                                "primed": true,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 4,
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "name": "e",
+                            "primed": true,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 4,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 4,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 4
+              }
+            ],
+            "valueList": [
+              "result",
+              {
+                "name": "append",
+                "args": [
+                  {
+                    "name": "result",
+                    "primed": false,
+                    "line": 0,
+                    "tokentype": "Variable"
+                  },
+                  {
+                    "name": "float",
+                    "args": [
+                      {
+                        "name": "Mult",
+                        "args": [
+                          {
+                            "name": "GetElement",
+                            "args": [
+                              {
+                                "name": "poly",
+                                "primed": false,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              },
+                              {
+                                "name": "e",
+                                "primed": true,
+                                "line": 0,
+                                "tokentype": "Variable"
+                              }
+                            ],
+                            "line": 4,
+                            "tokentype": "Operation"
+                          },
+                          {
+                            "name": "e",
+                            "primed": true,
+                            "line": 0,
+                            "tokentype": "Variable"
+                          }
+                        ],
+                        "line": 4,
+                        "tokentype": "Operation"
+                      }
+                    ],
+                    "line": 4,
+                    "tokentype": "Operation"
+                  }
+                ],
+                "line": 4
+              }
+            ]
+          }
+        ]
+      },
+      "loctrans": {
+        "1": {
+          "true": 2
+        },
+        "2": {
+          "false": 3,
+          "true": 4
+        },
+        "3": {},
+        "4": {
+          "true": 2
+        }
+      },
+      "locdescs": {
+        "1": "around the beginning of function \u0027computeDeriv\u0027",
+        "2": "the condition of the \u0027for\u0027 loop at line 3",
+        "3": "*after* the \u0027for\u0027 loop starting at line 3",
+        "4": "inside the body of the \u0027for\u0027 loop beginning at line 4"
+      },
+      "types": {
+        "result": "*",
+        "e": "*",
+        "ind#0": "int",
+        "poly": "*",
+        "iter#0": "*"
+      }
+    }
+  },
+  "meta": {},
+  "warns": {},
+  "loops": {}
+}
