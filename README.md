@@ -1,37 +1,22 @@
-# its-patchvalidation-template
+# Patch Validator for Intelligent Tutoring System (ITS)
 
 ## Overview
-It is very important to provide formal guarantee that our ITS generated patches are correct. This project provides a template for the patch validation module.
-You need to implement the `PatchValidator` class, which is responsible for verifying the correctness of the generated patches. The `PatchValidator` class should take two programs as input and return a boolean value indicating whether the fixed program is semantically equivalent to the reference program.
+This project is a component of an Intelligent Tutoring System (ITS) designed to check the semantic equivalence between a student's patched submission and a reference solution. The project is implemented in Java and is primarily used in coding assignments where semantic equivalence is crucial to evaluate student submissions.
 
+Semantic equivalence is defined as two programs producing the same return value and output when given the same input. Our validator works for both pure functions (where return values determine equivalence) and impure functions (where outputs must match despite possible differences in control flow).
 
-## Entry Points
+## Features
+- Semantic Equivalence Verification: Compares patched and reference programs to determine whether they produce identical outputs and return values.
+- Support for Impure Functions: Handles functions with side effects, ensuring equivalence based on outputs instead of just return values.
+- Integration with ITS Modules: Uses ITS components such as the parser and structural aligner for program pre-processing before validation.
+- Z3 Solver Integration: Translates programs into Z3 logical formulas for precise semantic analysis.
+- Support for Basic Input/Output Operations: Implements basic scanf and printf functions for equivalence checking with user inputs.
 
-* This project does not have any local dependencies. Please use the parser API provided by our its-service to retrive the intermediate CFG representation of the programs. You can also find an example usage in [its-integration-services](./its-integration-services/src/test/java/sg/edu/nus/se/its/parser/ParserServiceImplTest.java).
-
-* [sg.edu.nus.se.its.validation.PatchValidator](./its-patch-validation/src/main/java/sg/edu/nus/se/its/validation/PatchValidator.java)
-```
-/**
- * Verification module based on program equivalence checking.
- */
-public class PatchValidator{
-
-  public boolean patchValidation(Program referenceProgram, Program fixedProgram) {
-    // TODO Auto-generated method stub
-    throw new NotImplementedException();
-  }
-
-}
-```
-
-* You can use `mvn clean compile test` to build and test your implementation.
-
-## Restrictions
-* You are not allowed to change any code in the [sg.edu.nus.its.its-core](./its-core), unless you get approval from tutors.
-* You need to stick to the provided interfaces.
-* You are not allowed to change the file/class name or move [sg.edu.nus.se.its.validation.OptimizationRepair](./its-repair-optimization/src/main/java/sg/edu/nus/se/its/repair/OptimizationRepair.java ).
-* If you would require any other dependencies or libraries, you first need to seek approval by the tutors.
-* You are not allowed to change any file within [.github](./.github).
+## How It Works
+1. Input Parsing and Structural Alignment: The patched and reference programs are parsed by the ITS parser and aligned using the ITS structural aligner.
+2. Z3 Translation: Both programs are translated into Z3 logical formulas.
+3. Z3 Solver: The Z3 solver processes the formulas to determine whether the two programs are semantically equivalent.
+4. Output Comparison: The program evaluates the return values and output from both programs and determines equivalence.
 
 ## Documentation
 ### Class Diagram
