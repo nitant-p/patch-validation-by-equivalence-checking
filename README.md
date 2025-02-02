@@ -1,9 +1,12 @@
 # Patch Validator for Intelligent Tutoring System (ITS)
 
 ## Overview
-This project is a component of an Intelligent Tutoring System (ITS) designed to check the semantic equivalence between a student's patched submission and a reference solution. The project is implemented in Java and is primarily used in coding assignments where semantic equivalence is crucial to evaluate student submissions.
+The Patch Validator is a core component of an Intelligent Tutoring System (ITS) designed to automatically evaluate student code submissions. Instead of relying on simple syntax or test-case matching, this system ensures that a student's patched submission is semantically equivalent to a reference solution.
 
-Semantic equivalence is defined as two programs producing the same return value and output when given the same input. Our validator works for both pure functions (where return values determine equivalence) and impure functions (where outputs must match despite possible differences in control flow).
+Semantic equivalence means that two programs produce the same results for any given input, even if their internal logic differs. Our validator supports both pure functions (where return values determine correctness) and impure functions (which involve side effects such as print statements).
+
+## Why It Matters:
+This system enhances automated grading by allowing for flexible code solutions, ensuring fairness while reducing manual effort in coding assignments and programming competitions.
 
 ## Features
 - Semantic Equivalence Verification: Compares patched and reference programs to determine whether they produce identical outputs and return values.
