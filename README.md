@@ -7,11 +7,8 @@ Semantic equivalence means that two programs produce the same results for any gi
 
 ## How it fits into the Intelligent Tutoring System
 
-<img width="552" alt="image" src="https://github.com/user-attachments/assets/971fb1c9-b85f-44db-bb25-c720b85eadea" />
-<img width="781" alt="image" src="https://github.com/user-attachments/assets/739b9b49-7a6c-404e-a56a-9a6b99a5909e" />
-
-
-
+![](images/its_overview.png)
+![](images/its_zoomed.png)
 ## Why It Matters:
 This system enhances automated grading by allowing for flexible code solutions, ensuring fairness while reducing manual effort in coding assignments and programming competitions.
 
