@@ -5,6 +5,13 @@ The Patch Validator is a core component of an Intelligent Tutoring System (ITS) 
 
 Semantic equivalence means that two programs produce the same results for any given input, even if their internal logic differs. Our validator supports both pure functions (where return values determine correctness) and impure functions (which involve side effects such as print statements).
 
+## How it fits into the Intelligent Tutoring System
+
+<img width="552" alt="image" src="https://github.com/user-attachments/assets/971fb1c9-b85f-44db-bb25-c720b85eadea" />
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/739b9b49-7a6c-404e-a56a-9a6b99a5909e" />
+
+
+
 ## Why It Matters:
 This system enhances automated grading by allowing for flexible code solutions, ensuring fairness while reducing manual effort in coding assignments and programming competitions.
 
@@ -20,6 +27,8 @@ This system enhances automated grading by allowing for flexible code solutions, 
 2. Z3 Translation: Both programs are translated into Z3 logical formulas.
 3. Z3 Solver: The Z3 solver processes the formulas to determine whether the two programs are semantically equivalent.
 4. Output Comparison: The program evaluates the return values and output from both programs and determines equivalence.
+
+
 
 ## Documentation
 ### Class Diagram
